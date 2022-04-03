@@ -22,8 +22,6 @@ Add dependencies to your project:
 php plubo add [option] [path]
 ```
 
-
-
 ## remove
 
 Remove dependencies from your project:
