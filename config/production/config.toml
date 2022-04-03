@@ -1,1 +1,2 @@
-canonifyURLs = false
+baseurl = "https://joanrodas.github.io/plubo-docs/"
+canonifyURLs = true
