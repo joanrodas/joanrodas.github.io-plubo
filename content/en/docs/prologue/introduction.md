@@ -16,7 +16,7 @@ toc: true
 ## Get started
 
 ```bash
-composer create-project joanrodas/plubo
+composer create-project joanrodas/plubo project-name
 ```
 
 ## Help

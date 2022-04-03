@@ -15,12 +15,12 @@ toc: true
 
 ## Requirements
 
-- PHP >=7.3
+- PHP >= 7.3
 - Composer
-- npm >12
+- node >= v12
 
 ## Get PLUBO
 
 ```bash
-composer create-project joanrodas/plubo
+composer create-project joanrodas/plubo project-name
 ```
