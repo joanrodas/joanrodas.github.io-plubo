@@ -13,6 +13,11 @@ weight: 100
 toc: true
 ---
 
+✔️  Use Blade views and directives from the start\
+✔️  Add styles in SCSS\
+✔️  JavaScript router lets you add scripts on specific WordPress templates (based on body tags) and on specific shortcode tags
+
+
 ## Get started
 
 ```bash
