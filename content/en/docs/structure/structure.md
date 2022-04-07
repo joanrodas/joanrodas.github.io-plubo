@@ -15,7 +15,7 @@ toc: true
 
 ## Simple structure
 
-```
+```bash
 Your plugin
 |
 ├── admin
