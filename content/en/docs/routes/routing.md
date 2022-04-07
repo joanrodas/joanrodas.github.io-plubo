@@ -47,6 +47,7 @@ add_filter('plubo/routes', function($routes) {
 ```
 
 ### Available syntax:
+
 * number (numbers only)
 * word (a-Z only)
 * slug (a valid WordPress slug)
