@@ -17,7 +17,6 @@ toc: true
 ✔️  Add styles in SCSS\
 ✔️  JavaScript router lets you add scripts on specific WordPress templates (based on body tags) and on specific shortcode tags
 
-
 ## Get started
 
 ```bash
