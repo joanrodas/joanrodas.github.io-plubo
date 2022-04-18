@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{418:function(t,n,e){"use strict";e.r(n);var s={props:{content:String}},o=e(62),c=Object(o.a)(s,(function(){var t=this.$createElement,n=this._self._c||t;return n("div",{staticClass:"box"},[n("Content",{attrs:{"slot-key":this.content}})],1)}),[],!1,null,null,null);n.default=c.exports}}]);
