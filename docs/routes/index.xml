@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Routes on</title><link>https://plubo.dev/docs/routes/</link><description>Recent content in Routes on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sun, 07 Nov 2021 08:49:15 +0000</lastBuildDate><atom:link href="https://plubo.dev/docs/routes/index.xml" rel="self" type="application/rss+xml"/><item><title>Plubo Routes</title><link>https://plubo.dev/docs/routes/routing/</link><pubDate>Wed, 06 Oct 2021 08:49:31 +0000</pubDate><guid>https://plubo.dev/docs/routes/routing/</guid><description>✔️ No need to write rewrite rules and tags manually
-✔️ Easily extendable with hooks
-✔️ Ready to use with blade templates
-Getting started #
-composer require joanrodas/plubo-routes
-You can also install Plubo Routes as a standalone WordPress plugin, simply downloading the zip and placing it in the plugins folder.
-Adding new routes #
-&amp;lt;?php use PluboRoutes\PluboRoutesProcessor; use PluboRoutes\Route; PluboRoutesProcessor::init(); add_filter('plubo/routes', function($routes) { $routes[] = new Route( 'route_name', 'example/{city:word}/{id:number}', 'template_path' ); return $routes; }); ?</description></item></channel></rss>
