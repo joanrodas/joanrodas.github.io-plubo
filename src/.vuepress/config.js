@@ -92,9 +92,6 @@ module.exports = {
       ]
     }
   },
-
-  base: "/plubo-docs/",
-
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
