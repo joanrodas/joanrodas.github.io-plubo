@@ -1,0 +1,20 @@
+{
+  "name": "plubo-docs",
+  "version": "0.0.1",
+  "description": "A simple WordPress plugin boilerplate",
+  "main": "index.js",
+  "authors": {
+    "name": "Joan Rodas",
+    "email": "joan@sirvelia.com"
+  },
+  "repository": "https://github.com/joanrodas/plubo-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "deploy": "npm run build && npx gh-pages docs/.vuepress/dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
