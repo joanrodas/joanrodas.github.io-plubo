@@ -70,6 +70,18 @@ You can use the format ***{variable_name:type}*** with any of the available type
 You can also use custom regex patterns using the format ***{variable_name:regex_pattern}*** like ***{author:([a-z0-9-]+)}***
 :::
 
+## Changing general template path
+
+By default, Plubo Routes will search the template inside your theme, but you can use a hook to chenge the default path.
+
+If you use Sage 10, you could add something like this:
+
+```php
+add_filter( 'plubo/template', function($template) {
+    return app('sage.finder')->locate($template);
+});
+```
+
 ## Custom Actions
 
 Named routes provide a hook to execute your custom actions:
